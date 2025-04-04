@@ -1,0 +1,12 @@
+{
+    "extends": "../../packages/typescript-config/base.json",
+    "compilerOptions": {
+      "composite": true,
+      "module": "ESNext",
+      "target": "ESNext",
+      "moduleResolution": "Node",
+      "esModuleInterop": true
+    },
+    "include": ["vite.config.ts", "**/*.ts", "**/*.vue"]
+  }
+  

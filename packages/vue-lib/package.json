@@ -1,0 +1,20 @@
+{
+    "name": "@repo/vue-lib",
+    "version": "1.0.0",
+    "private": true,
+    "type": "commonjs",
+    "main": "index.ts",
+    "scripts": {
+        "build": "vite build"
+    },
+    "dependencies": {
+        "@tailwindcss/postcss": "^4.1.2",
+        "@vitejs/plugin-vue": "^5.2.3",
+        "autoprefixer": "^10.4.21",
+        "postcss": "^8.5.3",
+        "tailwindcss": "^3.4.14",
+        "typescript": "^5.8.2",
+        "vite": "^6.2.5",
+        "vue": "^3.5.13"
+    }
+}

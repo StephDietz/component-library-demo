@@ -9,9 +9,11 @@
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
     "prettier": "^3.5.3",
     "turbo": "^2.4.4",
-    "typescript": "5.8.2"
+    "typescript": "^5.8.2",
+    "vite": "^6.2.4"
   },
   "engines": {
     "node": ">=18"
@@ -20,5 +22,9 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
 }
